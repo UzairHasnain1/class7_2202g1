@@ -1,0 +1,96 @@
+
+/* for responsive design */
+
+@media screen and (max-width: 1024px)
+{
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        width: 45%;
+        border: 1px solid gray;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .left-section{
+        width: 100%;
+        background-color: khaki;
+    }
+    
+    .right-section{
+        width: 100%;
+        order: -1;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        order: -1;
+    }
+
+    .main-heading{
+        display: flex;
+        justify-content: center;
+    }
+
+    .products-heading{
+        display: flex;
+        justify-content: center;
+    }
+
+    .products-heading h3{
+        margin: 5px 0px 5px 0px;
+    }
+
+    .main-heading h3{
+        margin: 20px 0px 0px 0px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        width: 95%;
+        border: 1px solid gray;
+        margin-top: 20px;
+    }
+    .left-section{
+        margin-top: 20px;
+    }
+}

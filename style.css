@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    line-height: 60px;
+    background-color: greenyellow;
+}
+
+.left ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.left ul li{
+    margin: 0px 10px 0px 10px;
+}
+
+.left ul li a{
+    color: gray;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo h3{
+    color: grey;
+}
+
+.right ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.right ul li{
+    margin: 0px 10px 0px 10px;
+}
+
+.right ul li a i{
+    color: gray;
+}
+
+main{
+    display: flex;
+}
+
+.left-section{
+    width: 25%;
+    background-color: khaki;
+}
+
+.right-section{
+    width: 75%;
+}
+
+.left-section ul{
+    list-style-type: none;
+}
+
+.left-section ul li{
+    margin: 20px 15px 0px 15px;
+    border-bottom: 1px solid gray;
+}
+
+.left-section ul li a{
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.image{
+    display: flex;
+    justify-content: space-evenly;
+}
+.image img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.main-heading h3{
+    margin: 20px 10px 20px 10px;
+}
+
+.para p{
+    margin: 20px 10px 20px 10px;
+    text-align: justify;
+}
+
+.products-heading h3{
+    margin: 20px 10px 20px 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 32%;
+    border: 1px solid gray;
+}
+
+.img img{
+    width: 100%;
+    padding: 10px;
+}
+
+.card h3{
+    margin: 10px 10px 10px 10px;
+}
+
+.card p{
+    margin: 10px;
+    text-align: justify;
+}
+
+.btn{
+    margin: 23px 0px 23px 10px;
+}
+
+.btn a{
+    border: 1px solid gray;
+    padding: 12px 20px 12px 20px;
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+}
+
+.btn a:hover{
+    border: 1px solid gray;
+    background: transparent;
+    color: gray;
+}
+
+footer{
+    line-height: 60px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
